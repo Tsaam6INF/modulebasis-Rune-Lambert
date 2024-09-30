@@ -1,3 +1,5 @@
+const { login, cb } = require("./admin");
+
 login("kleintjes.karel", "test", cb);
 // resultaat: fout bij het aanmelden
 
